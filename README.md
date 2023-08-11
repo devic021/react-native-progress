@@ -10,7 +10,7 @@ Progress indicators and spinners for React Native using React Native SVG.
 
 ## Changes log
 
-- Fixed non transparent background for `Progres.Circle` 
+- Fixed non transparent background for `Progress.Circle` 
 
 ### React Native SVG based components
 
