@@ -49,13 +49,14 @@ export class ProgressCircle extends Component {
     borderWidth: 1,
     color: 'rgba(0, 122, 255, 1)',
     direction: 'clockwise',
-    formatText: progress => `${Math.round(progress * 100)}%`,
+    formatText: (progress) => `${Math.round(progress * 100)}%`,
     progress: 0,
     showsText: false,
     size: 40,
     thickness: 3,
     endAngle: 0.9,
     allowFontScaling: true,
+    fill: 'transparent',
   };
 
   constructor(props, context) {
@@ -174,6 +175,7 @@ export class ProgressCircle extends Component {
               stroke={borderColor || color}
               strokeCap={strokeCap}
               strokeWidth={border}
+              fill={fill}
             />
           ) : (
             false
