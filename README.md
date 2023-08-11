@@ -8,9 +8,10 @@ Progress indicators and spinners for React Native using React Native SVG.
 
 `$ npm install react-native-progress --save`
 
-## Changes log
+## Changes and fixes
 
-- Fixed non transparent background for `Progress.Circle` 
+- Fixed non transparent background for `Progress.Circle` by default
+- Fixed 'fill' prop to `Progress.Circle`
 
 ### React Native SVG based components
 
