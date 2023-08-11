@@ -8,6 +8,10 @@ Progress indicators and spinners for React Native using React Native SVG.
 
 `$ npm install react-native-progress --save`
 
+## Changes log
+
+- Fixed non transparent background for `Progres.Circle` 
+
 ### React Native SVG based components
 
 To use the `Pie` or `Circle` components, you need to install [React Native SVG](https://github.com/react-native-svg/react-native-svg) in your project.
